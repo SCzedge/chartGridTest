@@ -12,20 +12,20 @@ public class MainController {
 	}
 	
 	
-	@GetMapping("/jqgrid")
-	public String jqgird() {
-		return "index";
+	@GetMapping("/jqxgrid")
+	public String jqxgrid() {
+		return "/jqx/grid/demoJqxgrid";
 	}
 	
 	
 	@GetMapping("/dhxgrid")
 	public String dhxgrid() {
-		return "index";
+		return "dhx/grid/demoDhxgrid";
 	}
 	
 	@GetMapping("/toastgrid")
-	public String toastgird() {
-		return "index";
+	public String toastgrid() {
+		return "toast/grid/demoToastgrid";
 	}
 	
 }
