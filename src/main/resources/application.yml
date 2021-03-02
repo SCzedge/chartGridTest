@@ -7,13 +7,6 @@ spring:
     view:
       prefix: /WEB-INF/views/
       suffix: .jsp
-#  datasource:
-#    hikari:
-#      driver-class-name: com.mysql.cj.jdbc.Driver
-#      jdbc-url: jdbc:mysql://3.35.50.74:3306/mars?serverTimezone=UTC&characterEncoding=UTF-8
-#      jdbc-url: jdbc:mysql://localhost:3306/venus
-#      username: marsdevmaster
-#      password: marsmaster
 devtools:
   livereload:
     enabled: true
